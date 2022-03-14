@@ -11,7 +11,7 @@
   "content_scripts": [
     {
       "matches": ["*://edstem.org/*", "*://cmsx.cs.cornell.edu/beta/*"],
-      "css": ["isabella.css"],
+      "css": ["pronhub.css"],
       "js": ["script.js"]
     }
   ]
