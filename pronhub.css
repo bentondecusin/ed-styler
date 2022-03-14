@@ -1,0 +1,242 @@
+.theme-light {
+    --text-body: var(--primary) !important;
+    --text-body2: var(--secondary-high) !important;
+    --text-body3: #666;
+    --text-lightest: #757575;
+    --text-highlight-bg: yellow;
+    --text-accent: #1e3d63;
+    --text-accent-bold: #08172b;
+    --page-bg: black!important;
+    --page-bg2: var(--grey-3) !important;
+    --page-bg3: var(--grey-2) !important;
+    --page-bg4: var(--grey-1) !important;
+    --page-bg-transparent: rgba(255, 255, 255, 0);
+    --control-fg: black;
+    --control-bg: white;
+    --control-fg-disabled: #bbb;
+    --control-bg-disabled: #f8f8f8;
+    --control-border: #ddd;
+    --control-border-weak: #eee;
+    --control-border-strong: #ccc;
+    --control-active-bg: #ffffcc;
+    --button-bg: #fcfcfc;
+    --button-fg: #555;
+    --button-border: #d0d0d0;
+    --button-pressed-bg: #f0f0f0;
+    --button-disabled-bg: #f8f8f8;
+    --button-disabled-fg: #bbb;
+    --button-disabled-border: transparent;
+    --button-primary-bg: #096ff4;
+    --button-primary-bg-transparent: rgba(9, 111, 244, 0);
+    --button-danger-bg: #ef042e;
+    --button-success-bg: #16c734;
+    --focus-ring-color: rgba(0, 127, 255, 0.4);
+    --focus-ring-color-transparent: rgba(0, 127, 255, 0);
+    --focus-ring-size: 3px;
+    --focus-ring-transition: box-shadow 0.1s ease-in-out;
+    --focus-ring-box-shadow: 0 0 0 var(--focus-ring-size) var(--focus-ring-color);
+    --focus-ring-box-shadow-none: 0 0 0 0 var(--focus-ring-color-transparent);
+    --focus-outline-width: 2px;
+    --focus-outline-offset: 2px;
+    --focus-outline-color: var(--grey-2) !important;
+    --selection: var(--grey-3) !important;
+    --selection-text: var(--grey-3) !important;
+    --selection-faint: var(--gray-3) !important;
+    --selection-fainter: #f7faff;
+    --selection-fg: var(--grey-3) !important;
+    --selection-bg: rgba(0, 98, 251, 0.1);
+    --selection-bg-hover: rgba(0, 98, 251, 0.05);
+    --selection-border: var(--grey-1) !important;
+    --shadow-color: rgba(0, 0, 0, 0.2);
+    --shadow-color-weak: rgba(0, 0, 0, 0.1);
+    --shadow-contrast-color: var(--shadow-color);
+    --shadow-faint-color: rgba(0, 0, 0, 0.08);
+    --shadow-faint-contrast-color: var(--shadow-faint-color);
+    --shadow-hairline: rgba(0, 0, 0, 0.05);
+    --link: #f1f1f1 !important;;
+    --link-inv-fg: white;
+    --accent: var(--header_background) !important;
+    --accent2: var(--tertiary) !important;
+    --scrollbar: rgba(80, 40, 140, 0.25);
+    --scrollbar-hover: rgba(80, 40, 140, 0.5);
+    --user-name-fg: white !important;
+    --user-name-fg-highlighted: white !important;
+    --role-label-fg: #333;
+    --role-label-bg: var(--orange) !important;;
+    --role-label-bg-staff: var(--orange) !important;;
+    --role-label-bg-tutor: var(--orange) !important;;
+    --success-fg: #008216;
+    --success-bg: #16c734;
+    --success-bg-transparent: rgba(22, 199, 52, 0.1);
+    --success-border-transparent: rgba(22, 199, 52, 0.25);
+    --danger-fg: #b30018;
+    --danger-bg: #ef0425;
+    --danger-bg-transparent: rgba(239, 4, 37, 0.1);
+    --danger-border-transparent: rgba(239, 4, 37, 0.25);
+    --warning-fg: #ae6f00;
+    --warning-bg: #f09600;
+    --warning-bg-transparent: rgba(240, 150, 0, 0.1);
+    --warning-border-transparent: rgba(240, 150, 0, 0.25);
+    --info-fg: var(--grey-3) !important;
+    --info-bg: var(--grey-2) !important;
+    --info-bg-transparent: rgba(18, 92, 204, 0.1);
+    --info-border-transparent: rgba(18, 92, 204, 0.25);
+    --disclosure-bg: rgba(255, 165, 0, 0.05);
+    --Xffffff: #ffffff;
+    --Xfcfcfc: #fcfcfc;
+    --Xfafafa: #fafafa;
+    --Xf8f8f8: #f8f8f8;
+    --Xf0f0f0: #f0f0f0;
+    --X000000: #000000;
+    --Xeee: #eee;
+    --Xddd: #ddd;
+    --Xccc: #ccc;
+    --Xbbb: #bbb;
+    --X888: #888;
+    --X666: #666;
+    --X444: #444;
+    --X222: #222;
+}
+
+.appbar-icon{
+    fill: black !important;
+}
+
+.icon {
+    background: orange !important;
+    padding: 7px !important;
+    border-radius: 5px !important;
+    color: black !important;
+    font-weight: bold !important;
+    fill: black !important;
+}
+
+.discuss-new-thread-button{
+    background: orange !important;;
+    padding: 10px !important;;
+    border-radius: 10px !important;;
+    color: black !important;;
+    font-weight: bold !important;;
+}
+
+header{
+    background-color: var(--header_background) !important;;
+}
+
+body {
+    background-color: var(--secondary) !important ;
+}
+
+html{
+    color: var(--primary) !important; 
+    font-family: var(--font-family) !important;
+    font-size: var(--base-font-size) !important;
+}
+
+.sidebar-item.sbi-active, .sidebar-item[aria-pressed=true] {
+    background-color: var(--orange) !important;
+    color: black !important;
+}
+
+a {
+    font-size: 100% !important;
+}
+.dft-title { 
+    
+}
+:root {
+    --orange: #ffa31a;
+    --gray-1: #808080;
+    --gray-2: #292929;
+    --gray-3: #1b1b1b;
+    --scheme-type: light;
+    --primary: #ffffff;
+    --secondary: #000;
+    --tertiary: #292929;
+    --quaternary: #00a791;
+    --header_background: #292929;
+    --header_primary: #faf7e9;
+    --highlight: #fcca46;
+    --danger: #e74762;
+    --success: #00a791;
+    --love: #e74762;
+    --always-black-rgb: 0, 0, 0;
+    --primary-rgb: 0,51,61;
+    --primary-low-rgb: 213,222,214;
+    --secondary-rgb: 250,247,233;
+    --header_background-rgb: 104,198,185;
+    --tertiary-rgb: 0,167,145;
+    --primary-very-low: #f1e9d5;
+    --primary-low: #d5ded6;
+    --primary-low-mid: #9da5a2;
+    --primary-medium: #6e8387;
+    --primary-high: #1d4249;
+    --primary-very-high: #006b80;
+    --header_primary-low: #7ecbbe;
+    --header_primary-low-mid: #aad8cb;
+    --header_primary-medium: #c6e2d5;
+    --header_primary-high: #d9e9dc;
+    --header_primary-very-high: #eff3e5;
+    --secondary-low: #76661b;
+    --secondary-medium: #c5aa2d;
+    --secondary-high: #dbc55f;
+    --secondary-very-high: #f4edcd;
+    --tertiary-very-low: #ddfffa;
+    --tertiary-low: #ccfff8;
+    --tertiary-medium: #54ffe8;
+    --tertiary-high: #00eccd;
+    --tertiary-hover: #007d6d;
+    --quaternary-low: #98fff1;
+    --highlight-low: #feefc8;
+    --highlight-medium: #fee5a3;
+    --highlight-high: #9e7403;
+    --danger-low: #fbe3e7;
+    --danger-low-mid: rgba(243,163,177,0.7);
+    --danger-medium: #ee7e91;
+    --danger-hover: #d61c3b;
+    --success-low: #bafff6;
+    --success-medium: #54ffe8;
+    --success-hover: #008674;
+    --love-low: #fbe3e7;
+    --wiki: green;
+    --blend-primary-secondary-5: #f4f1e4;
+    --primary-med-or-secondary-med: #6e8387;
+    --primary-med-or-secondary-high: #6e8387;
+    --primary-high-or-secondary-low: #1d4249;
+    --primary-low-mid-or-secondary-high: #9da5a2;
+    --primary-low-mid-or-secondary-low: #9da5a2;
+    --primary-or-primary-low-mid: #00333d;
+    --highlight-low-or-medium: #feefc8;
+    --tertiary-or-tertiary-low: #00a791;
+    --tertiary-low-or-tertiary-high: #ccfff8;
+    --tertiary-med-or-tertiary: #54ffe8;
+    --secondary-or-primary: #faf7e9;
+    --tertiary-or-white: #00a791;
+    --facebook-or-white: #1877f2;
+    --twitter-or-white: #1da1f2;
+    --hljs-comment: #998;
+    --hljs-number: #099;
+    --hljs-string: #d14;
+    --hljs-literal: #458;
+    --hljs-tag: #000080;
+    --hljs-attribute: #008080;
+    --hljs-symbol: #990073;
+    --hljs-bg: #f8f8f8;
+    --google: #fff;
+    --google-hover: #f2f2f2;
+    --instagram: #e1306c;
+    --instagram-hover: #ac194b;
+    --facebook: #1877f2;
+    --facebook-hover: #0a54b3;
+    --cas: #70ba61;
+    --twitter: #1da1f2;
+    --twitter-hover: #0c85d0;
+    --github: #100e0f;
+    --github-hover: #463e42;
+    --discord: #7289da;
+    --discord-hover: #4a67cf;
+    --gold: #e7c300;
+    --silver: silver;
+    --bronze: #cd7f32;
+}
+
